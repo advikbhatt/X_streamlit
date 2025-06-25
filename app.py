@@ -4,8 +4,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 
-# bearer_token = "AAAAAAAAAAAAAAAAAAAAAIsn2QEAAAAA44lphf0zJoJD%2FRizn02mRAHQvJU%3Diu7NvEXdWam223TERYhyHxD0S77o7RiEyOFS2VJuG6zhjM6Mfo"
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAJdd2QEAAAAAQdymHmRbgP%2Bo2wqeJxhqtQ9b4HY%3DViWZK2GQUxroQttOv7gdDPeWfEB1uRG1Fc8eCoOg7FmPWjNBqr"
+#Add bearer token here 
 
 client = tweepy.Client(bearer_token=bearer_token)
 
